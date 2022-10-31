@@ -41,3 +41,12 @@
   opacity: 0.9;
   filter: blur(80px);
 }
+.near-development-gradient {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #7bdde2 0,
+    rgba(127, 208, 231, 0) 100%
+  );
+  opacity: 0.9;
+  filter: blur(60px);
+}
