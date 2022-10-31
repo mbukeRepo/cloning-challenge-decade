@@ -50,3 +50,13 @@
   opacity: 0.9;
   filter: blur(60px);
 }
+
+.complete-course-gradient {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #7bdde2 0,
+    rgba(123, 221, 226, 0) 100%
+  );
+  filter: blur(23px);
+  opacity: 0.6;
+}
