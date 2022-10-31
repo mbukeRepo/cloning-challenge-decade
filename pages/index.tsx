@@ -101,7 +101,7 @@ export default function Home() {
         id="learning"
         className="min-h-screen pt-24  flex flex-col  items-center"
       >
-        <h2 className="text-zinc-700 text-center md:text-5xl font-secondary text-3xl">
+        <h2 className="text-zinc-700 text-center mb-12 md:mb-36 md:text-5xl font-secondary text-3xl">
           Making your NEAR
           <br /> learning easy.
         </h2>
@@ -116,11 +116,11 @@ export default function Home() {
                 height={296}
               />
             </div>
-            <div className="flex flex-col text-center md:text-start items-center md:items-start  gap-4">
+            <div className="flex mb-12 flex-col text-center md:text-start items-center md:items-start  gap-4">
               <h4 className="font-secondary text-zinc-700  text-xl">
                 Open NEAR wallet
               </h4>
-              <p className="paragraph-text-color text-sm w-3/5 lg:text-lg">
+              <p className="paragraph-text-color text-sm md:  w-3/5 lg:text-lg">
                 <span>Opening a NEAR wallet is the first step and</span>
                 <span> essential part of joining the NEAR community</span>
                 <span> as well as starting this course.</span>
